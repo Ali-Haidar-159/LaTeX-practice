@@ -1,0 +1,62 @@
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4 paper]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\title{Image Testing}
+\author{Ali Haidar}
+\date{23 October , 2024}
+
+%this header and footer is for first page : 
+\lhead{Ali}
+\chead{HTML}
+\rhead{1}
+
+\renewcommand{\headrulewidth}{0 pt}
+
+%this header and footer is for second page : 
+\fancypagestyle{stylePage2}{\fancyhf\fancyhead[l]{haidar}\fancyhead[c]{css}\fancyhead[r]{2}}
+
+\begin{document}
+
+
+\section{HTML}
+\large
+HTML is the standard markup language for Web pages.
+With HTML you can create your own Website.
+HTML is easy to learn - \textbf{You will enjoy it!}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{download.png}
+    \caption{HTML Image}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\newpage
+
+\thispagestyle{stylePage2}
+
+\section{CSS}
+\large
+CSS is the language we use to style an HTML document.
+CSS describes how HTML elements should be displayed.
+This tutorial will teach you CSS from basic to advanced.
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.2]{css.png}
+    \caption{CSS Image}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\end{document}
+
+
+

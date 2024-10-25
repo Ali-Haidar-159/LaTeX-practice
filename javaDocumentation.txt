@@ -1,0 +1,120 @@
+%initialization part
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4 paper]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{graphicx}
+\usepackage{url,hyperref}
+\usepackage{enumitem}
+
+% Title part 
+\title{Java}
+\author{Ali Haidar}
+\date{23 October , 2024}
+
+
+% header part for page 1
+\lhead{Ali}
+\chead{Documentation}
+\rhead{1}
+\renewcommand{\headrulewidth}{0 pt}
+
+% header part for page 2
+\fancypagestyle{styleForPage2}{\fancyhf{}\fancyhead[l]{Haidar} \fancyhead[c]{OOP} \fancyhead[r]{2}}
+
+
+% main-body part
+
+\begin{document}
+
+\begin{center}
+    \huge
+    Java
+\end{center}
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{java.png}
+\end{figure}
+
+\section{There are some characteristic of Java}
+\begin{itemize}
+    \item OOp
+    \item Platform Independent
+    \item Robust
+    \item Multi Threated
+    \item Secure \\
+\end{itemize}
+
+\large
+\# \textbf{Introduction} \: 
+Are you a software developer looking for JDK downloads? 
+
+OpenJDK Early Access Builds · Java SE Development Kit.
+
+If you want to see other information about java then \hyperlink{https://www.java.com/en/}{click} on the button .
+
+
+\section{Contents : }
+\subsection{Data Types}
+    \begin{enumerate}[label=\roman*.]
+        \item Primitive data types
+        \item Non primitive data types 
+    \end{enumerate}
+\subsection{Variable}
+\subsection{Operator}
+\subsection{Statement}
+\subsubsection{Expression Statement}
+\subsubsection{Control Statement}
+
+\newpage
+
+\thispagestyle{styleForPage2}
+
+\textbf{\textit{\underline{Java is a Object Oriented Programming language.}}}
+
+\section{Object oriented}
+\begin{enumerate}[label=\alph*.]
+    \item Inheritance 
+    \item Polymorphism
+    \item Abstraction
+    \item Interface
+\end{enumerate}
+\subsection{Encapsulaiton}
+
+\huge
+\# Q\&A Live Streams from Devoxx Belgium\vspace{5mm}
+
+\large
+Java 23 is here! On September 17th, 13:00 UTC we live-streamed a 3+ hour event on our YouTube channel to celebrate another great release with technical deep dives, expert guests, a community update, and more exciting announcements. \\
+
+\large
+\textbf{\# students name , id and mark : }\\
+
+\begin{tabular}{| c | c | c |}
+\hline
+\multicolumn{2}{|c|}{Section-2} & result\\
+\hline
+    Name & Id & Mark  \\
+\hline
+\hline
+    Ali & 154515 & 25 \\
+\hline
+    Kamal & 143515 & 25 \\
+\hline
+    Jubair & 154345 & 22 \\
+\hline
+    Matin & 1545656 & 28 \\
+\hline
+\end{tabular}
+
+\end{document}
+
+
+
+
+
+
+
+
